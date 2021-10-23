@@ -9,9 +9,4 @@ public class CustomerResource {
     public String getAllCustomer() {
         return "All Customer";
     }
-
-    @GetMapping("/get-one-customer")
-    public String getOneCustomer() {
-        return "Get One Customer";
-    }
 }
